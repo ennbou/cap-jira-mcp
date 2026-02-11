@@ -1,0 +1,17 @@
+{
+	"servers": {
+		"mcp-atlassian": {
+			"command": "docker",
+			"args": [
+				"run",
+				"-i",
+				"--rm",
+				"--env-file",
+				"${workspaceFolder}/atlassian/.env",
+				"ghcr.io/sooperset/mcp-atlassian:latest"
+			],
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}
