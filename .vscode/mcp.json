@@ -7,7 +7,7 @@
 				"-i",
 				"--rm",
 				"--env-file",
-				"${workspaceFolder}/atlassian/.env",
+				"${workspaceFolder}/.env",
 				"ghcr.io/sooperset/mcp-atlassian:latest"
 			],
 			"type": "stdio"
